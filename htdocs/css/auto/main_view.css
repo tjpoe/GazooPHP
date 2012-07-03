@@ -1,0 +1,16 @@
+{literal}
+body {
+    background-color: grey;   
+}
+div.main {
+    margin: 20px auto;
+    background-color: white;
+    width: 980px;
+    padding: 20px;
+}
+div.footer {
+    margin: 0px auto;
+    width: 225px;
+    padding: 10px;
+}
+{/literal}

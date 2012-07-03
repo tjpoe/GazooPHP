@@ -1,0 +1,8 @@
+<?php
+/* This file is designed to be the base controller for your deployment. You 
+should add any code that is specific to your deployment here.
+*/
+class baseController extends gazooController {
+       
+}
+?>

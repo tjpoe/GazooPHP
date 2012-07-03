@@ -1,0 +1,11 @@
+{literal}
+body {
+    background-color: black;   
+}
+div.main {
+    margin: 20px auto;
+    background-color: white;
+    width: 980px;
+    padding: 20px;
+}
+{/literal}
