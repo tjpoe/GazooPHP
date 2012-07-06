@@ -41,7 +41,7 @@ class DB{
                return $this->dbs[$dbConnection];   
            } else {
                //create and store for later
-               print( "creating $dbConnection" );
+               //print( "creating $dbConnection" );
                $this->dbs[$dbConnection] = new DB( $this->connectionArray[$dbConnection]['host'], $this->connectionArray[$dbConnection]['user'], $this->connectionArray[$dbConnection]['pass'], $this->connectionArray[$dbConnection]['db'] );
                return $this->dbs[$dbConnection];
            } 
