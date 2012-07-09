@@ -72,7 +72,7 @@ class DB{
 	private function ArrayResults(){
 		if (!$this->result) return "Error in Query: " . $this->LastQuery() . " . Error: " . $this->error;
 		if (mysql_num_rows($this->result) == 0)
-			return false; //if nothing, return nothing. 
+			return null; //if nothing, return nothing. 
 		$temp = array();
 		while ($row = mysql_fetch_assoc($this->result)){
 			array_push($temp,$row);	
